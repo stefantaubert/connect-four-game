@@ -2,7 +2,6 @@
 {
     Red,
     Blue,
-    Green,
     Empty,
     Arrow
 }

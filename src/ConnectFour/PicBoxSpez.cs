@@ -39,16 +39,14 @@ namespace ConnectFour
         public void SetImage(Farben farbe)
         {
             if (farbe == Farben.Red)
-                this.BackgroundImage = Resources.Rot;
+                this.BackgroundImage = Resources.red;
             else if (farbe == Farben.Blue)
-                this.BackgroundImage = Resources.Blau;
+                this.BackgroundImage = Resources.blue;
             else if (farbe == Farben.Arrow)
             {
                 this.BackgroundImage = Resources.Pfeil;
                 this.BackColor = Color.LightSkyBlue;
-            }
-            else if (farbe == Farben.Green)
-                this.BackgroundImage = Resources.green;
+            }         
             else this.BackgroundImage = null;
             _color = farbe;
             Refresh();

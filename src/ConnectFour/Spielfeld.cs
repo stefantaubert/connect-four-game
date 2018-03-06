@@ -132,7 +132,7 @@ namespace ConnectFour
             foreach (List<Farben> item in prüfreihen)
             {
                 Farben winner = ContainsFour(item.ToArray());
-                if (winner != Farben.Empty && winner != Farben.Green && SpielVorbei != null)
+                if (winner != Farben.Empty && SpielVorbei != null)
                 {
                     SpielVorbei(winner);
                     break;
